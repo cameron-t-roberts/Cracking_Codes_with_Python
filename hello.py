@@ -1,10 +1,12 @@
-import pyperclip
+# This program says hello and asks for my name
 
-#This is a basic "Hello World" test of writing python. 
+print('Hello, world!')
 
-print("Hello World!")
+print('What is your name?')
 
-print("Is this working?")
+myName = input()
+
+print('It is nice to meet you ' + myName )
 
 
-print("Test of online edit, with pull")
+
